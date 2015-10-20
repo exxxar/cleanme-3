@@ -1,0 +1,173 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	background: #D3FCEA;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 120px;
+	 
+}
+.logo{
+	background : url('logo.png') no-repeat;
+	width: 230px;
+	height: 80px;
+	margin-top: 30px;
+	float: left;
+}
+.menu{
+	position: relative;
+	height: 50px;
+	width:500px;
+	margin-top: 48px;
+	float: left;
+	left: 320px;
+
+}
+
+.menu ul li{
+	color: #FF9999;
+	display: block;
+	float: left;
+	margin-right: 30px;
+	font-size: 2em;
+	font-weight: bold;
+}
+.menu ul li:hover{
+	color: #4C8F79;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+}
+.uborka{
+	width: 100%;
+	height: 250px;
+	 
+	
+	
+}
+
+.uborka1{
+	background: url('1.png') no-repeat ;
+	width: 250px;
+	height: 250px;
+	float: left;
+	 
+
+}
+.uborka2{
+	background: url('2.png') no-repeat;
+	width: 250px;
+	height: 250px;
+	margin-left: 800px;
+	float: left;
+}
+.uborka3{
+	background: url('3.png') no-repeat;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+.uborka4{
+	background: url('4.png') no-repeat;
+	width: 250px;
+	height: 250px;
+	margin-left: 800px;
+	float: left;
+}
+.uborka5{
+	background: url('5.png') no-repeat;
+	width: 250px;
+	height: 250px;
+	float: left;
+	 
+}
+.uborka h3{
+	color: #FF9999;
+	font-size: 20px;
+	line-height: 25px;
+
+}
+.uborka h3:hover{
+	color: #4C8F79;
+}
+.uborka p{
+	color: #616161;
+	font-size: 16px;
+}
+.descr{
+	 position: absolute;
+	 margin-top:45px;
+	 margin-left: 300px;	 
+}
+.descr-n{
+	 position: absolute;
+	 margin-top:45px;
+	 margin-left: 450px;	 
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	
+}
